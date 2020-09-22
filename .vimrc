@@ -56,6 +56,7 @@ Plug 'arnaud-lb/vim-php-namespace'
 "" python
 Plug 'davidhalter/jedi-vim'
 Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
+Plug 'vim-python/python-syntax'
 "" space + sh -> vimshell
 Plug 'Shougo/vimshell.vim'
 "" snippet
@@ -354,4 +355,5 @@ augroup templateGroup
 augroup END
 " snippet
 let g:UltiSnipsSnippetDirectories=["~/vim-snippets/"]
+
 Plug 'w0rp/ale'
